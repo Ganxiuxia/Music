@@ -1,0 +1,32 @@
+<view class="head-bg"></view>
+<view class="member">
+  <view class="info-box">
+    <view class="info">
+      <view class="url">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class="name">
+        <open-data type="userNickName"></open-data>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 联系客服 -->
+<view class='col-100'>
+  <button open-type="contact" class='contacButton'>
+    <view class='contacButtonView' wx:for='{{connectButton}}' wx:key='key'>
+      <text class='float {{item.className}}'>{{item.text}}</text>
+      <text class='icon-right {{item.className}}'>></text> </view>
+  </button>
+</view>
+<!-- 意见反馈 -->
+<view class='col-100'>
+  <button class="contacButton" open-type="feedback" >
+    <view class='contacButtonView' wx:for='{{connectButton1}}' wx:key='key'>
+      <text class='float {{item.className}}'>{{item.text}}</text>
+      <text class='icon-right {{item.className}}'>></text> 
+      </view>
+  </button>
+</view>
+
+ 

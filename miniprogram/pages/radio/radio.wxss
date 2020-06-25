@@ -1,0 +1,170 @@
+page{
+  background: #fbfbfb;
+}
+
+.sound-recording {
+  height: 900rpx;
+  width: 100%;
+  margin: 10rpx 0rpx;
+  border-radius: 2rpx;
+  position: relative;
+}
+
+
+.btn {  
+  width: 2550rpx;
+  position: relative;
+  margin: 100rpx 100rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.btn .show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 25rpx;
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #FFFFFF;
+  border: 6rpx solid #08c0f6;
+}
+
+.btn .hide {
+  pointer-events: none;
+  background-color:#FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+  width: 50rpx;
+  height: 50rpx;
+  border: 6rpx solid #c9eaef;
+}
+.anniu1 {
+  padding-top: 100rpx;
+  padding-left: 180rpx;
+  margin: 10rpx 50rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 25rpx;
+  width: 300rpx;
+  height: 300rpx;
+  background-color: #FFFFFF;
+  border: 6rpx solid #08c0f6;
+  
+}
+.anniu1 .no-clicking1 {
+  pointer-events: none;
+  background-color:#FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 25rpx;
+  width: 300rpx;
+  height: 300rpx;
+  border: 6rpx solid #f4f5f7;
+}
+
+
+.row2{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 25rpx;
+  width: 150rpx;
+  height: 150rpx;
+  background-color: #FFFFFF;
+  border: 6rpx solid #08c0f6;
+}
+
+.anniu .no-clicking2 {
+  pointer-events: none;
+  background-color:#FFFFFF;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 50%;
+  font-size: 25rpx;
+  width: 150rpx;
+  height: 150rpx;
+  border: 6rpx solid #f4f5f7;
+}
+.dian{  
+  margin-top: -80rpx; 
+}
+
+
+.time {
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.progress {
+  padding-top: 300rpx;
+  margin: 20rpx;
+  height: 2rpx;
+  
+}
+
+.play {
+  margin: 0rpx 20rpx;
+}
+
+.txt {
+  display: flex;
+  justify-content: center;
+  line-height: 60rpx;
+  font-size: 25rpx;
+}
+
+.anniu {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #FFFFFF;
+  border: 6rpx solid #08c0f6;
+}
+
+.jump-hover {
+  transform: scale(0.9);
+}
+
+/*禁止点击*/
+
+.anniu .no-clicking {
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0.445);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 50%; */
+  font-size: 25rpx;
+  width: 50rpx;
+  height: 50rpx;
+  border: 6rpx solid rgb(230, 230, 230);
+}
+.footer{
+  height: 400rpx;
+  width: 100%;
+  position:fixed;
+  background-color: rgb(245, 245, 245);
+}

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/playlist/playlist",
+    "pages/video/video",
+    "pages/radio/radio",
+    "pages/profile/profile",
+    
+    "pages/musiclist/musiclist",
+    "pages/player/player"
+  ],
+  "requiredBackgroundModes":[
+    "audio"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Mini音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/playlist/playlist",
+        "text": "音乐",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "images/av.png",
+        "selectedIconPath": "images/av-selected.png"
+      },
+      {
+        "pagePath": "pages/radio/radio",
+        "text": "清唱",
+        "iconPath": "images/record.png",
+        "selectedIconPath": "images/record-selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

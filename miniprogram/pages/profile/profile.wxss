@@ -1,0 +1,107 @@
+.head-bg {
+  width: 100%;
+  background: #fff;
+  height: 328rpx;
+  position: absolute;
+  z-index: -2;
+  top: 0px;
+  left: 0px;
+}
+
+.arrow {
+  width: 21rpx;
+  height: 35rpx;
+  margin-left: 200px;
+}
+
+.info-box {
+  margin: 40rpx 66rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200rpx;
+  box-sizing: border-box;
+}
+
+.url {
+  border-radius: 50%;
+  width: 136rpx;
+  height: 136rpx;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 35rpx;
+  color: #383838;
+  margin-top: 20rpx;
+}
+
+button {
+  display: flex;
+}
+
+.item_title {
+  text-align: left;
+  color: #000;
+  float: left;
+  display: flex;
+}
+
+.item_right {
+  display: flex;
+  margin-right: 10px;
+}
+
+.col-100 {
+  width: 100vw;
+  background-color: #fff;
+  margin-top: 20rpx;
+  overflow: hidden;
+  border: #F2F2F2 1px solid;
+}
+
+.button-setting {
+  border-bottom: #f2f2f2 1px solid;
+  padding: 30rpx 20rpx 30rpx 60rpx;
+  color: #333;
+}
+
+.icon-right {
+  float: right;
+  color: #ccc;
+  padding: 0rpx 450rpx;
+}
+
+.contacButton {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  float: left;
+}
+
+.contacButton::after {
+  border: #fff solid;
+}
+
+.contacButtonView {
+  padding: 22rpx 20rpx 12rpx 60rpx;
+  margin: 2rpx 0rpx 10rpx 0rpx;
+  color: #333;
+}
+.float{
+  float: left;
+}
+.contacButton:not([size='mini']) {
+width: 1200rpx;
+height: 94rpx;
+margin-left: auto;
+margin-right: auto;
+
+}

@@ -1,0 +1,23 @@
+<view class="bg">
+<view class="sound-recording">
+ <text class="txt">最大录音时长（{{duration/1000}}秒 = {{duration/60000}}分钟）</text>
+  <view class="time">{{status==0?'录音时长':(status==3?'录音已完成':'正在录音中')}}：{{time}} 秒</view>
+ <view class="anniu1">
+     <image class="{{status==0?'row1':'no-clicking1'}} " catchtap="kaishi" hover-class="jump-hover" src="/images/bofang.png" />
+</view>   
+  <view class="progress">
+    <progress percent="{{time*(100/(duration/1000))}}"  border-radius="10"  color="#00a6a9" stroke-width="2" backgroundColor="#eaeaea" />
+  </view>
+</view>
+<view>
+  <view class="anniu">
+  <view class="btn">
+    <image class="{{status==3?'show':'hide'}}" catchtap="reset" hover-class="jump-hover" src="/images/chongxin.png">  </image>
+    <view class="dian" hover-class="jump-hover" catchtap="tingzhi">
+     <image class="{{(status==1 || status==2)?'row2':'no-clicking2'}}"   src="/images/dian.png"/>
+     </view>  
+    <image class="{{status==3 && playStatus==0?'show':'hide'}}" catchtap="bofang" hover-class="jump-hover" src="/images/yuyin.png"></image>
+  </view>
+  </view>  
+  </view>
+  </view>
